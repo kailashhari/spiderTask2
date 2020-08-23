@@ -10,7 +10,7 @@ void main(){
     long int *num = new long int[n];
     cin>>q;
     for(i=0;i<n;i++){
-	num[i] = i;
+	num[i] = i+1;
     }
     for(j=0;j<q;j++){
 	cin>>Start;
